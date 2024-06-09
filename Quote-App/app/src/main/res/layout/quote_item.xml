@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CutShape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/shadow"
+        style="@style/CutShape"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginEnd="-25dp"
+        android:layout_marginBottom="-100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAuthor"
+        app:layout_constraintEnd_toEndOf="@+id/textViewQuote"
+        app:layout_constraintStart_toStartOf="@+id/textViewQuote"
+        app:layout_constraintTop_toTopOf="@+id/textViewQuote"
+        app:srcCompat="@drawable/black_transparent"
+        android:contentDescription="@string/nil"/>
+
+    <TextView
+        android:id="@+id/textViewQuote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/quote"
+        android:contentDescription="@string/quote"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAuthor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/author"
+        android:contentDescription="@string/author"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewQuote"
+        app:layout_constraintStart_toStartOf="@+id/textViewQuote"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuote" />
+
+    <ImageView
+        android:id="@+id/Quotation1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="34dp"
+        android:rotationX="180"
+        android:rotationY="180"
+        android:contentDescription="@string/nil"
+        app:layout_constraintStart_toStartOf="@+id/shadow"
+        app:layout_constraintTop_toTopOf="@+id/shadow"
+        app:srcCompat="@drawable/quotation"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/Quotation2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/shadow"
+        app:layout_constraintEnd_toEndOf="@+id/shadow"
+        app:srcCompat="@drawable/quotation"
+        android:contentDescription="@string/nil"
+        app:tint="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

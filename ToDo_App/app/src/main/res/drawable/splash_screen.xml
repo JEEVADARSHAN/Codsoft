@@ -1,0 +1,38 @@
+<!-- res/drawable/splash_screen.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape: Gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FF4081"
+                android:endColor="#7B1FA2"
+                android:type="linear"
+                android:angle="135" />
+        </shape>
+    </item>
+    <item
+        android:top="-300dp"
+        android:left="-300dp"
+        android:right="-300dp"
+        android:bottom="-300dp">
+        <rotate
+            android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <gradient
+                    android:startColor="#00FFFFFF"
+                    android:centerColor="#3F51B5"
+                    android:endColor="#00FFFFFF"
+                    android:type="linear"
+                    android:angle="90" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:width="175dp"
+        android:height="175dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/logo_todo"
+            android:gravity="fill"/>
+    </item>
+</layer-list>

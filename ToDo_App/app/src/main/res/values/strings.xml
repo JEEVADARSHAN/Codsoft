@@ -1,0 +1,20 @@
+<resources>
+    <string name="welcome">Welcome Back</string>
+    <string name="Today">Today\'s Task</string>
+    <string name="Search">Enter search title</string>
+    <string name="Add">Add Task</string>
+    <string name="app_name">Todo-App</string>
+    <string name="Update">Update Task</string>
+    <string name="Title">Enter the Task Title</string>
+    <string name="Description">Description</string>
+    <string name="Date">Created:</string>
+    <string name="deadlineDate">Deadline:</string>
+    <string name="Nil"> </string>
+    <string name="Save">Save Task</string>
+    <string name="title">Title</string>
+    <string name="next">Next</string>
+    <string name="New">New Task</string>
+    <string name="statusP">Status: In Progress</string>
+    <string name="statusI">Status: Incomplete</string>
+    <string name="statusC">Status: Completed</string>
+</resources>
