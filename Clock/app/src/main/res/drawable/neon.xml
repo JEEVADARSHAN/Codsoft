@@ -1,0 +1,35 @@
+<!-- techno_neon_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background shape with dark color -->
+    <item android:drawable="@android:color/black"/>
+
+    <!-- Outer glow gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#007BFF"
+                android:endColor="#00CFFF"
+                android:type="radial"
+                android:centerX="30%"
+                android:centerY="30%"
+                android:gradientRadius="300%"/>
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+
+    <!-- Inner glow effect to enhance the neon effect -->
+    <item android:left="8dp" android:right="8dp" android:top="8dp" android:bottom="8dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#007BFF"
+                android:endColor="#00CFFF"
+                android:type="radial"
+                android:centerX="30%"
+                android:centerY="30%"
+                android:gradientRadius="80%"/>
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+
+</layer-list>

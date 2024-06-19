@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Clock"  parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarDivider">@color/white</item>
+    </style>
+
+    <style name="Splash" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/grey</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="CutShape" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="DialogCustomTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:windowBackground">@color/grey</item>
+        <item name="backgroundColor">@color/grey</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+</resources>

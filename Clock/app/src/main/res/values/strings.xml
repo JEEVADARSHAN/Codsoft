@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="Alarm">Alarm</string>
+    <string name="StopClock">Stop-Clock</string>
+    <string name="Timer">Timer</string>
+    <string name="SetTime">Set Time</string>
+    <string name="home">Home</string>
+    <string name="Ringtone">Set Ringtone</string>
+    <string name="nil"> </string>
+    <string name="add">Add</string>
+    <string name="hint">Enter alarm name</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="timeUp">Time\'s UP!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="snooze">Snooze</string>
+    <string name="time">00:00:00</string>
+    <string name="date">yyyy-MM-dd</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="flag">Flag</string>
+    <string name="close">Close</string>
+    <string name="Daily">Daily</string>
+    <string name="Custom">Custom</string>
+    <string name="Once">Once</string>
+
+
+</resources>

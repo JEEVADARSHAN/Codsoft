@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/neon">
+
+    <!-- Example: Display alarm message -->
+    <TextView
+        android:id="@+id/alarmMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:shadowColor="@color/white"
+        android:shadowRadius="20"
+        android:text="@string/timeUp"
+        android:textColor="@color/black"
+        android:textSize="48sp" />
+
+
+    <Button
+        android:id="@+id/dismissButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarmMessage"
+        android:layout_alignEnd="@+id/alarmMessage"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/dismiss" />
+
+    <Button
+        android:id="@+id/snoozeButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarmMessage"
+        android:layout_alignStart="@+id/alarmMessage"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/snooze" />
+
+</RelativeLayout>

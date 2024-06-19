@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
         createNotificationChannel()
         setTheme(R.style.Theme_TodoApp)
 
-        var status = getString(R.string.statusP)
+        val status = getString(R.string.statusP)
 
         sharedPreferences = getSharedPreferences("tutorial_prefs", Context.MODE_PRIVATE)
         val hasSeenTutorial = sharedPreferences.getBoolean("hasSeenTutorial", false)
