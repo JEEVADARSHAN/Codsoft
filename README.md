@@ -14,7 +14,7 @@ This repository contains my projects developed during my internship as an Androi
 
 1. Clone this repository to your local machine using:
 ```
-git clone https://github.com/your-username/CodeSoft.git
+git clone https://github.com/jeevadarshan/Codesoft.git
 ```
 2. Open the project in Android Studio.
 3. Build and run the individual apps on an Android emulator or a physical device.
