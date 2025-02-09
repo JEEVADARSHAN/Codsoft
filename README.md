@@ -22,35 +22,33 @@ git clone https://github.com/your-username/CodeSoft.git
 <h3>App Details</h3>
 
 1. **Alertify** - Alarm App
-  *   **Description**: This app allows users to set alarms with custom times, repeat options, and notification sounds.
-  *   **Features**:
-    *   Set one-time and recurring alarms.
-    *   Custom notification sounds.
-    *   Snooze functionality.
-    *   Simple and intuitive UI.
+  - **Description**: This app allows users to set alarms with custom times, repeat options, and notification sounds.
+  - **Features**:
+    - Set one-time and recurring alarms.
+    - Custom notification sounds.
+    - Snooze functionality.
+    - Simple and intuitive UI.
 
 2. **Clock** - Timer, Stopwatch, and Clock App
-   
-  *   **Description**: A versatile app that offers a timer, stopwatch, and digital clock functionality.
-  *   **Features**:
-    *   Timer with customizable durations.
-    *   Stopwatch with start, pause, and reset functionality.
-    *   Real-time digital clock display.
+  - **Description**: A versatile app that offers a timer, stopwatch, and digital clock functionality.
+  - **Features**:
+    - Timer with customizable durations.
+    -   Stopwatch with start, pause, and reset functionality.
+    -   Real-time digital clock display.
 
 3. **Quote App** - Random Quote Generator
-   
-  *   **Description**: Displays random inspirational or motivational quotes on the screen.
-  *   **Features**:
-    *   Shows random quotes from an array.
-    *   Allows users to share quotes with others.
-    *   Simple and minimalistic design.
+  - **Description**: Displays random inspirational or motivational quotes on the screen.
+  - **Features**:
+     - Shows random quotes from an array.
+     - Allows users to share quotes with others.
+     - Simple and minimalistic design.
 
 4. **To-Do Task** - Daily Task Manager
-  *   **Description**: A simple to-do list app to manage your daily tasks.
-  *   **Features**:
-    *   Add, edit, and delete tasks.
-    *   Mark tasks as completed.
-    *   Task persistence using local storage.
+  - **Description**: A simple to-do list app to manage your daily tasks.
+  - **Features**:
+    - Add, edit, and delete tasks.
+    - Mark tasks as completed.
+    - Task persistence using local storage.
 
 <h2>Contributions</h2>
 If you’d like to contribute to any of the apps, feel free to open a pull request or report any issues. Contributions are welcome!
